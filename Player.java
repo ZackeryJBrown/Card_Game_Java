@@ -1,8 +1,7 @@
 public class Player {
-    public int attack = 0;
-    public int defense = 0;
+    public void attack() {        //creating an attack method so that it can be used for different characters
+    }
 
-
-
-
+    public void defense() {       //creating a defense method so that it can be used for different characters
+    }
 }
