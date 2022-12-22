@@ -1,0 +1,27 @@
+gameplay
+---------
+1 player VS Computer
+starting hand 5 cards
+player always plays first turn, computer responds randomly
+1 mandatory card draw on turn start including 1st turn/game start
+cards will have static ATK/DEF stats
+1 card on field per player
+Player will play 1 card per turn to the field
+    -must keep previous card on field if present, and no card play
+ATK/DEF stats of cards compared, if card ATK > opposing DEF, opposing card removed, attacks sumultaneous.
+One or both cards can be removed from the field on a turn
+winning player is one that has not run out of cards from the deck
+
+deck component
+--------------
+deck size - 20 cards
+random card draw on turn start
+cards used will be ignored/throw out
+
+
+player and computer class
+--------------
+cards in hand
+card on field
+
+
