@@ -9,10 +9,9 @@ public class Game {
         
         String userInput = scanner.nextLine();
         System.out.println(userInput);
-        String userString = userInput.toString();
 
         //should resolve to true but doesn't, above tested output is string
-        if (userString == "draw"){
+        if (userInput.equals("draw")){
             System.out.println("card drawn");
         }else{
             System.out.println("Error");
