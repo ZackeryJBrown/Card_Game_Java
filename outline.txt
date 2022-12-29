@@ -25,3 +25,7 @@ cards in hand
 card on field
 
 
+
+Idea:
+
+PlayerService, CardContainer class, instantiate player hand and deck as new CardContainer

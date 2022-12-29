@@ -6,3 +6,6 @@ public class Player {
 
 
 }
+
+//player as a service
+

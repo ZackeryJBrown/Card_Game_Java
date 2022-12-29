@@ -1,13 +1,17 @@
+import java.util.HashMap;
 
 public class Deck {
     
     int maxCards = 20;
     int currentCardCount;
-    int[] deckContents;
+    //int[] deckContents;
+    
 
     void deckConstructor() {
         this.currentCardCount = 20;
-        this.deckContents = new int[20];
+        //this.deckContents = new int[20];
+        //Need map to contain the card objects
+        HashMap<Integer, String> cardList = new HashMap<Integer, String>();
     }
 
 
@@ -32,9 +36,6 @@ public class Deck {
         System.out.println(playerDeck.maxCards);
         System.out.println("Current cards:");
         System.out.println(playerDeck.currentCardCount);
-        System.out.println("Deck Contents");
-        System.out.println(playerDeck.deckContents[0]);
-        System.out.println(playerDeck.deckContents[1]);
 
     }
     
