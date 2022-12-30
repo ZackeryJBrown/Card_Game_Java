@@ -2,20 +2,22 @@ import java.util.HashMap;
 
 public class Deck {
     
-    int maxCards = 20;
+    int maxCards;
     int currentCardCount;
+    HashMap<Integer, String> cardList;
     //int[] deckContents;
     
 
-    void deckConstructor() {
+    public Deck() {
         this.currentCardCount = 20;
+        this.maxCards = 20;
         //this.deckContents = new int[20];
         //Need map to contain the card objects
-        HashMap<Integer, String> cardList = new HashMap<Integer, String>();
+        HashMap<Integer, String> cardList = new HashMap<Integer, String>(maxCards);
     }
 
 
-    void cardSetter() {
+    void fillWithCards() {
         /*
         method:
         -randomly assigns an integer (card ID) to a variable only needed in this method
@@ -24,14 +26,16 @@ public class Deck {
             -instantiates an object of that card named "[player or computer][CardName]"
             -assigns that object (or array?) to the i index of deckContents
         */
+        for (int i=0 ; i < cardList.size() ; i++){
+            //add a random card
+        }
     }
 
 
     //construction testing
     public static void main(String[] args){
         Deck playerDeck = new Deck();
-        playerDeck.deckConstructor();
-
+        
         System.out.println("MaxCards:");
         System.out.println(playerDeck.maxCards);
         System.out.println("Current cards:");
