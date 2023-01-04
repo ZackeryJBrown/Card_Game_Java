@@ -16,6 +16,7 @@ public class Instructions {
             System.out.println("6. When you have reviewed the results of the battle, type \"draw\" to start the next turn");
             System.out.println("The winner of the game is the player who has not run out of cards.");
             System.out.println("");
+            System.out.println("You can type \"help\" to see a list of commands");
             System.out.println("You can now start the game!");
         }
 

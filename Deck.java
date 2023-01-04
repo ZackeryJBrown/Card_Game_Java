@@ -1,7 +1,7 @@
 
 public class Deck {
     
-    int maxCards = 20;
+    final int maxCards = 20;
     int currentCardCount;
     int[] deckContents;
 
@@ -26,6 +26,8 @@ public class Deck {
     //construction testing
     public static void main(String[] args){
         Deck playerDeck = new Deck();
+        Deck computerDeck = new Deck();
+
         playerDeck.deckConstructor();
 
         System.out.println("MaxCards:");
